@@ -1,7 +1,7 @@
 public class Program4_SwapTwoNumbers {
     public static void main(String[] args) {
 
-        // With the help of third variable
+        // Using third variable
         int n1 = 23;
         int n2 = 34;
         System.out.println("Before swap: n1 = "+n1+", n2 = "+n2);
@@ -13,7 +13,7 @@ public class Program4_SwapTwoNumbers {
 
         System.out.println();
         
-        // Without the help of third variable
+        // Without using third variable
         System.out.println("Before swap: n1 = "+n1+", n2 = "+n2);
         n1 = n1 + n2;
         n2 = n1 - n2;
